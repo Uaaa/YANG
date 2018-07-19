@@ -1,0 +1,43 @@
+@import '@/lib/reset.scss';
+
+html, body, .container {
+  @include rect(100%, 100%);
+}
+
+.header{
+		   background:#00bcd4;
+		   display:flex;
+		   line-height:.86rem; 
+			 color:#fff;
+				.header-left {
+				 color:#fff;
+				 width:.64rem;
+				 float:left;
+				   .back-icon{
+						  text-align:center;
+							font-size:.4rem;
+					 }
+				 }	
+				.header-input{
+				 flex:1; 
+				 height:.64rem;
+				 line-height: .64rem;
+				 background:#fff;
+				 border-radius:.1rem;
+				 margin-top:.12rem;
+				 margin-left:.2rem;
+				 color:#ccc;
+				 padding-left:.2rem;
+				}
+				.header-right{
+					color:#fff;
+					width:1.24rem;
+					float:right;
+					text-align:center;
+						.arrow-icon{
+							margin-left:-.04rem;
+							font-size:.24rem;
+						}
+			}
+			
+}

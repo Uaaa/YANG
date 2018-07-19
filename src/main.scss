@@ -1,0 +1,8 @@
+@import './lib/reset.scss';
+@import '@/varies.scss';
+//改别名可以改bulid/webpack.base.conf.js---->resolve
+html, body, .container {
+  @include rect(100%, 100%);
+	background:$color;
+}
+
